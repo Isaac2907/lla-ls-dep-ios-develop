@@ -1,0 +1,260 @@
+{
+  "general": {
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "languages": [],
+    "userAgentAdd": "gonative",
+    "useWKWebView": true,
+    "enableWindowOpen": true,
+    "useCrosswalkWebView": false,
+    "forceScreenOrientation": "portrait",
+    "initialUrl": "https://betatester.masmovilpanama.com",
+    "appName": "Mi Más",
+    "publicKey": "rqwlwd",
+    "deviceRegKey": "hxv2kav3qruj5mtucwj68ar62m",
+    "iosBundleId": "com.cwp.app",
+    "androidVersionName": "2.0.0",
+    "androidPackageName": "com.cwp.app"
+  },
+  "navigation": {
+    "iosSettings": {},
+    "tabNavigation": {
+      "tabSelectionConfig": [
+        {
+          "id": "1",
+          "regex": ""
+        }
+      ],
+      "tabMenus": [
+        {
+          "items": [
+            {
+              "subLinks": []
+            }
+          ],
+          "id": "1"
+        }
+      ]
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "testURL": null,
+        "redirectLocations": [
+          {
+            "regex": null,
+            "menuName": "default",
+            "loggedIn": false
+          },
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      },
+      "menus": [
+        {
+          "items": null,
+          "name": "default",
+          "active": false
+        },
+        {
+          "items": null,
+          "name": "loggedIn",
+          "active": false
+        }
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "regex": "^(?!https?://).*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/login.php.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/dialog.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v1\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/oauth.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v2\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/checkpoint.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*plus\\.google\\.com/share.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://maps\\.google\\.com.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*",
+          "internal": false
+        },
+        {
+          "regex": ".*",
+          "internal": true
+        }
+      ]
+    },
+    "androidPullToRefresh": false,
+    "iosPullToRefresh": false,
+    "navigationTitles": {
+      "titles": [
+        {}
+      ]
+    },
+    "ignorePageFinishedRegexes": [],
+    "androidShowRefreshButton": false,
+    "iosShowRefreshButton": false,
+    "deepLinkDomains": [
+      "betatester.masmovilpanama.com",
+      "pagoexpress.masmovilpanama.com"
+    ],
+    "navigationLevels": {
+      "levels": [
+        {}
+      ]
+    },
+    "toolbarNavigation": null,
+    "redirects": []
+  },
+  "styling": {
+    "iosLaunchScreen": {
+      "backgroundColor": "#FFFFFF",
+      "backgroundImage": "https://s3.amazonaws.com/gonativeio/public/ios_launch_screen_background_default_FFFFFF_1_2x2.png",
+      "centerImage": null
+    },
+    "androidLaunchImages": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1604687502924_wagkjrkzy4x9a_180x180.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1604687502924_4mwc1gfe7tr5w_270x270.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1604687502924_ruh12az6grnn2_360x360.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1604687502925_m2mtfzauj3z84_540x540.9.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1604687502925_mqne4avycn4q0_720x720.9.png"
+    },
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "androidShowSplash": true,
+    "disableAnimations": false,
+    "hideWebviewAlpha": 0.5,
+    "icon": "https://gonativeio.s3.amazonaws.com/uploads/ejnh6kb2gbxrc_1603989999825.png",
+    "iosHeaderImage": "images/logo1.png",
+    "showActionBar": false,
+    "showNavigationBar": false,
+    "iosSidebarFont": "Default",
+    "androidHideTitleInActionBar": false,
+    "navigationTitleImage": false,
+    "iosTheme": "default",
+    "androidTheme": "light",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarForegroundColor": "#777777",
+    "androidActionBarBackgroundColor": "#bdbdbd",
+    "androidActionBarForegroundColor": "#000000",
+    "androidPullToRefreshColor": "#777777",
+    "androidAccentColor": "#009688",
+    "androidSidebarSeparatorColor": "#585858",
+    "androidTabBarBackgroundColor": "#bdbdbd",
+    "androidTabBarTextColor": "#000000",
+    "androidTabBarIndicatorColor": "#000000",
+    "androidStatusBarBackgroundColor": "#9D1D96",
+    "androidNotificationIcon": "https://gonativeio.s3.amazonaws.com/uploads/pq6zbvme8v15e_1602906240351.vnd.microsoft.icon"
+  },
+  "forms": {
+    "interceptForms": {
+      "forms": []
+    },
+    "search": {},
+    "loginConfig": {
+      "formSelector": null,
+      "loginIsFirstPage": false,
+      "formInputs": []
+    },
+    "signupConfig": {
+      "active": false,
+      "formSelector": null,
+      "formInputs": []
+    }
+  },
+  "permissions": {
+    "usesGeolocation": true,
+    "androidDownloadToPublicStorage": false,
+    "enableWebRTC": true
+  },
+  "publishing": {},
+  "performance": {
+    "webviewPools": [
+      {
+        "urls": [
+          {
+            "disown": "reload"
+          }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "push": {
+      "active": false
+    },
+    "analytics": {
+      "active": false
+    },
+    "parse": {
+      "active": false,
+      "pushEnabled": false
+    },
+    "facebook": {
+      "active": false
+    },
+    "oneSignal": {
+      "active": true,
+      "notificationExtension": false
+    },
+    "registration": {
+      "active": false,
+      "endpoints": [
+        {
+          "url": null,
+          "urlRegex": null,
+          "dataType": [
+            "parse",
+            "oneSignal",
+            "xtremepush"
+          ]
+        }
+      ]
+    }
+  }
+}
